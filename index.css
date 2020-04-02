@@ -118,3 +118,41 @@ body {
     text-align: center;
     font-size: 28px;
 }
+
+#table 
+{
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: tomato;
+    display: inline-block;
+}
+.table 
+{
+    border-collapse: collapse;
+    color: black;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.table th, td
+{
+    border: 1px solid black;
+    padding:4px 6px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 600px)
+
+{
+    
+    #nav
+    {
+    
+    width: auto;
+
+   
+    }
+}
